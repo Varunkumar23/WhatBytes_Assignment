@@ -42,8 +42,8 @@ Installation
 
 Clone this repository:
 
-git clone https://github.com/your-username/patient-doctor-api.git
-cd patient-doctor-api
+git clone (https://github.com/Varunkumar23/WhatBytes_Assignment.git)
+cd directory_name
 
 Install dependencies:
 
@@ -70,8 +70,8 @@ Register User
 POST /api/auth/register
 
 {
-  "name": "Varun Kumar",
-  "email": "varun@example.com",
+  "name": "User",
+  "email": "user@example.com",
   "password": "mypassword"
 }
 
@@ -80,7 +80,7 @@ Login User
 POST /api/auth/login
 
 {
-  "email": "varun@example.com",
+  "email": "user@example.com",
   "password": "mypassword"
 }
 
